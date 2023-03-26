@@ -1,0 +1,19 @@
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (max-width: 700px){
+    /*para una pantalla de 720px seleera este css*/
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px){
+    .container{
+        width: 300px;
+    }
+}
